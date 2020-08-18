@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Scaner GitHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h1>Find user</h1>
+
+    <form action="#">
+        <input type="text" placeholder="Type user name" id="user-name">
+        <input type="submit" value="Get user repos" id="button-1">
+    </form>
+</header>
+
+<section class="user-info hidden">
+    <div class="user-profile">
+        <img src="" alt="" class="user-information-avatar">
+        <div class="user-details">
+            <h1 class="user-information-name"></h1>
+            <p class="user-information-other"></p>
+        </div>
+    </div>
+    <div class="repos">
+        <div class="header-repos-list">
+            <h2>Repositories list</h2>
+        </div>
+        <div class="repos-lists">
+            <ul class="repos-list repo-page-1">
+                <li class="repos-list-item">Repo 1</li>
+                <li class="repos-list-item">Repo 2</li>
+                <li class="repos-list-item">Repo 3</li>
+                <li class="repos-list-item">Repo 4</li>
+                <li class="repos-list-item">Repo 5</li>
+                <li class="repos-list-item">Repo 6</li>
+                <li class="repos-list-item">Repo 7</li>
+            </ul>
+        </div>
+        <div class="page-number">
+            <p class="list-number ">1</p>
+            <p class="list-number actual-page">2</p>
+        </div>
+    </div>
+</section>
+
+<body>
+    <script src="app.js"></script>
+</body>
+
+</html>
